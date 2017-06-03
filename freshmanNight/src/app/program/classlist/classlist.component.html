@@ -1,0 +1,10 @@
+<article>
+  <h4>Classes</h4>
+  <ul class="classes">
+    <li *ngFor="let class of classes">
+      <a href="" [routerLink]="[class.name]">
+        {{class.id}} - {{class.name}}
+      </a>
+    </li>
+  </ul>
+</article>
